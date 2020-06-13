@@ -3,22 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
     <title>Document</title>
 </head>
 <body>
 <header class="container-fluid">
     <div class="row brand-blue">
-        <div class="col-sm-3 col-md-6 logo">
-            Logo here
+        <div class="col-8 col-md-2 logo">
+            <span class="friendly">Friendly</span>
+            <span class="bet">Bet</span>
         </div>
-        <div class="col-sm-3 col-md-6 registration-header">
+        <div class="col-4 col-md-5">Middle header
+        </div>
+        <div class="col-12 col-md-5 registration-header">
             Registration here
         </div>
     </div>
+    <div class="row no-gutters">
+        <div class="col-12">
+            <nav class="nav nav-pills flex-column flex-sm-row">
+                <a class="flex-sm-fill text-sm-center nav-link active" href="#">Home</a>
+                <a class="flex-sm-fill text-sm-center nav-link dropdown dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" href="#">Games</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Sweepstakes</a>
+                        <a class="dropdown-item" href="#">Last Man Standing</a>
+                        <a class="dropdown-item" href="#">Prediction Competitions</a>
+                    </div>
+                <a class="flex-sm-fill text-sm-center nav-link" href="#">Sports</a>
+                <a class="flex-sm-fill text-sm-center nav-link" href="#">Why Us?</a>
+            </nav>
+        </div>
+    </div>
 </header>
-<section>
+<section class="container-fluid">
 Section placeholder.
+This<br> 
+is<br>
+to<br>
+add<br>
+some<br>
+space.
+    <div class="row no-gutters">
+        <div class="col">
+            <ul class="nav nav-pills nav-justified">
+                <li class="nav-item col-12 col-md-3">
+                    <a class="nav-link active" href="#">Home</a>
+                </li>
+                <li class="nav-item col-12 col-md-3">
+                    <div class="dropdown">
+                        <button type="button" class="btn dropdown-toggle" data-toggle="dropdown">Games</button>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Sweepstakes</a>
+                                <a class="dropdown-item" href="#">Last Man Standing</a>
+                                <a class="dropdown-item" href="#">Prediction Competitions</a>
+                            </div>
+                    </div>
+                </li>
+                <li class="nav-item col-12 col-md-3">
+                    <div class="dropdown">
+                        <button type="button" class="btn dropdown-toggle" data-toggle="dropdown">Sports</button>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Football</a>
+                                <a class="dropdown-item" href="#">Horse Racing</a>
+                                <a class="dropdown-item" href="#">Golf</a>
+                                <a class="dropdown-item" href="#">GAA</a>
+                                <a class="dropdown-item" href="#">Rugby</a>
+                            </div>
+                    </div>
+                </li>
+                
+                <li class="nav-item col-12 col-md-3">
+                    <a class="nav-link" href="#">Why us?</a>
+                </li>
+            </ul>
+        </div>
+    </div>
 </section>    
 <footer>
 Footer placeholder.

@@ -4,6 +4,10 @@
     display: inline;
 }
 
+.logo {
+    background-color: red;
+}
+
 
 /*---------------------Colours-------------------*/
 
@@ -11,4 +15,12 @@
     background-color: navy;
     color: white;
     height: 40px;
+}
+
+.friendly {
+    color: white;
+}
+
+.logo .bet {
+    color: #e78200;
 }
