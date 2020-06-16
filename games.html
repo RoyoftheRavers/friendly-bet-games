@@ -10,10 +10,56 @@
     <title>Games</title>
 </head>
 <body>
-<header>
+<header class="container-fluid">
+    <div class="row brand-blue">
+        <div class="col-8 col-md-2 logo">
+            <span class="friendly">Friendly</span>
+            <span class="bet">Bet</span>
+        </div>
+        <div class="col-4 col-md-5">Middle header
+        </div>
+        <div class="col-12 col-md-5 registration-header">
+            Registration here
+        </div>
+    </div>
+    <div class="row no-gutters">
+        <div class="col">
+            <ul class="nav nav-pills nav-justified">
+                <li class="nav-item col-12 col-md-3">
+                    <a class="nav-link active" href="#">Home</a>
+                </li>
+                <li class="nav-item col-12 col-md-3">
+                    <div class="dropdown">
+                        <button type="button" class="btn dropdown-toggle" data-toggle="dropdown">Games</button>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="games.html#sweepstakes">Sweepstakes</a>
+                                <a class="dropdown-item" href="games.html#lms">Last Man Standing</a>
+                                <a class="dropdown-item" href="games.html#predcomp">Prediction Competitions</a>
+                            </div>
+                    </div>
+                </li>
+                <li class="nav-item col-12 col-md-3">
+                    <div class="dropdown">
+                        <button type="button" class="btn dropdown-toggle" data-toggle="dropdown">Sports</button>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="sports.html#football">Football</a>
+                                <a class="dropdown-item" href="sports.html#horse-racing">Horse Racing</a>
+                                <a class="dropdown-item" href="sports.html#golf">Golf</a>
+                                <a class="dropdown-item" href="sports.html#gaa">GAA</a>
+                                <a class="dropdown-item" href="sports.html#rugby">Rugby</a>
+                            </div>
+                    </div>
+                </li>
+                
+                <li class="nav-item col-12 col-md-3">
+                    <a class="nav-link" href="#">Why us?</a>
+                </li>
+            </ul>
+        </div>
+    </div>  
 </header>
 <section>
-    <h2>Sweepstakes</h2>
+    <h2 id="sweepstakes">Sweepstakes</h2>
     <p>Sweepstakes are fun ‘lottery style’ games where each participant goes into an    open draw and gets randomly drawn a team (or horse!) who can win them a prize. No   prior knowledge of the sport is required – or even helpful! Sweepstakes offered include the Grand National Sweepstake in horse racing and the FIFA World Cup final tournaments in football.
     </p>
     <img src="/assets/images/sweepstake.jpg" alt="Friends watching sport in front of a pot of money.">
@@ -50,7 +96,7 @@
             </div>
         </div>
     </div>
-    <h2>Last Man Standing</h2>
+    <h2 id="lms">Last Man Standing</h2>
     <p>Last Man Standing is a league-based competition whereby each player must select a different team in each game week of the league to win in the hope of progressing to the next round/game week. Those participants with winning selections will stay in the competition the next week while others will be knocked out. Your challenge is to be the last person standing and collect the prize money! Competitions offered include the Premier League in England and the League of Ireland.
     </p>
     <img src="/assets/images/lastmanstanding-resize1.jpg" alt="One man standing in celebration on a mountain.">
@@ -92,7 +138,7 @@
             </div>
         </div>
     </div>
-    <h2>Prediction Competitions</h2>
+    <h2 id="predcomp">Prediction Competitions</h2>
     <p>Prediction Competitions give participants to chance to pit their wits against friends and colleagues predicting the correct scores and/or results of that particular tournament! Competitions offered include the FIFA World Cup in football, the Cheltenham racing festival and all four of the golf majors.
     </p>
     <img src="/assets/images/prediction-1.jpg" alt="Friends watching sport in front of a pot of money.">
