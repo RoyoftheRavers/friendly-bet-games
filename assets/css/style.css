@@ -8,6 +8,17 @@
     background-color: red;
 }
 
+/*---------------------Home-------------------*/
+
+#home-image {
+    height: 700px;
+    width: 700px;
+    margin-top: 50px;
+}
+
+#home-h1 {
+    margin-top: -25px;
+}
 
 /*---------------------Colours-------------------*/
 
