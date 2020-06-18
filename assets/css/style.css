@@ -13,13 +13,13 @@
 /*---------------------Home-------------------*/
 
 #home-image {
-    height: 700px;
-    width: 700px;
+    height: 300px;
+    width: 500px;
     margin-top: 50px;
 }
 
 #home-h1 {
-    margin-top: -25px;
+    margin-top: 25px;
 }
 
 /*---------------------Colours-------------------*/
@@ -32,10 +32,16 @@
 
 .friendly {
     color: white;
+    font-style: italic;
 }
 
 .bet {
     color: #e78200;
+}
+
+.friendly .bet {
+    font-weight: 600;
+    font-size: 60%;
 }
 
 /*---------------------Footer-------------------*/
