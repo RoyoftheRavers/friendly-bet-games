@@ -25,7 +25,12 @@
 /*---------------------Colours-------------------*/
 
 .brand-blue {
-    background-color: #0024C2;
+    background-color: #0024C2!important;
+}
+
+.active {
+    color: white;
+    background: #0024C2!important;
 }
 
 .friendly {
