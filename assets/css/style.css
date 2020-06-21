@@ -26,6 +26,12 @@
 
 .brand-blue {
     background-color: #0024C2;
+    color: white;
+}
+
+.contact-details {
+    background: white;
+    color: #0024C2;
 }
 
 .active {
@@ -56,3 +62,4 @@
 .social {
     text-align: center;
 }
+
