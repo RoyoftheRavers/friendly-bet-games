@@ -3,7 +3,9 @@ The project is based on a company specialising in 'friendly betting' games, that
 games against each other for money. This type of game is also known as pooled betting' as it is more similar to a lottery
 format than traditional betting/gambling, which in reality is against highly qualified risk analysts and probably experts.
 This project is purely to give users an understanding of the games available, how they can play them, what the rules are
-and what sports are covered. Users/fans can navigate by game type or sport.
+and what sports are covered. Users/fans can navigate by game type or sport. The project was slighly rushed due to only
+receiving the 'hard date' for the projects two weeks before. Only high level planning (without code) had been done at
+that point.
 The pages in the project are:
 index.html
 gametypes.html
@@ -54,16 +56,25 @@ Pingdom
 BrowserStack
 
 Issues and Bugs
-
+Issues include the rushed nature of the project as mentioned in the description. It meant more detailed features
+could not be tested or included. However, they can be for future projects.
 
 Scalability
 The project represents huge opportunities for scalability and future iterations. Live games could be added, 
 based on the documented formats, which utilise JavaScript to bring the games alive for the user, add backend 
-funtionality and databases to manage and store all customer data. 
-
+funtionality and manage databases to store customer data, connect to live data API's etc. Features may include
+user accounts, live tables, share functionality and ultimately UX driven game development.
 
 
 Technologies
+The Bootstrap framework was the main system used. The grid was used to layout the website.
 Copy and pasted jquery, popper and bootstrap cdn js plug-ins to head from w3schools.com.
+Fontawesome was used for the social links and contact links in the footer.
+unsplashed.com was used for the images, as well as Google images.
+Logopony was used to generated the logo, a screenshot was subsequently taken of it and uploaded.
+
 
 Acknowledgements
+Unsplash.com
+Mentor - Felip in giving advice around the planning
+Customer Care Support - provided advice and allowed a 5 day extension upon realsing I was not sent dates on time.
