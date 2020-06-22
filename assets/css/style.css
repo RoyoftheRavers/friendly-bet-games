@@ -22,6 +22,10 @@
     margin-top: 25px;
 }
 
+.display-block {
+    width: 100%;
+}
+
 /*---------------------Colours-------------------*/
 
 .brand-blue {
@@ -61,5 +65,14 @@
 
 .social {
     text-align: center;
+}
+
+.font-exo {
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 300;
+}
+
+.color-white {
+    color: white !important;
 }
 
