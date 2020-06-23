@@ -10,6 +10,7 @@
 }
 
 
+
 /*---------------------Home-------------------*/
 
 #home-image {
@@ -22,9 +23,6 @@
     margin-top: 25px;
 }
 
-.display-block {
-    width: 100%;
-}
 
 /*---------------------Colours-------------------*/
 
@@ -55,6 +53,10 @@
 .friendly .bet {
     font-weight: 600;
     font-size: 60%;
+}
+
+.green {
+    color: green;
 }
 
 /*---------------------Footer-------------------*/
