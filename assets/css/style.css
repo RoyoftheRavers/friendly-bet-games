@@ -59,6 +59,12 @@
     color: green;
 }
 
+/*---------------------Headings-------------------*/
+
+.page-heading {
+    font-family: 'Exo 2', sans-serif;
+}
+
 /*---------------------Footer-------------------*/
 
 .uppercase {
