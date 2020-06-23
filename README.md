@@ -42,13 +42,15 @@ External users of the site have the following goals (including section of the we
 3	Determine whether the games will be fun / enjoyable (index.html/why us?)
 4	Find out how the game works (gametypes.html)
 5	Understand the rules (gametypes.html - Modals included for specific game rules)
-
 The site owner has the following goals:
 1	Generate user interest in playing the games (index.html/why us?)
 2	Allow users to easily understand the games and why they are fun (index.html/why us? and gametypes.html)
 3	Make them likely to tell their friends about the games and share them (index.html/why us?)
 4	Users associate upcoming sporting events with the games themselves e.g. Premier League, Masters Golf, 
     Grand National etc (sports.html)
+
+    *Files in assets folder showing how user goals were achieved: 
+    User Stories Screenshot 1 / User Stories Screenshot 2 / User Stories Screenshot 3
 
 
 Features
@@ -70,8 +72,7 @@ having all options open at once. The show class is used to display the first opt
 users land on the gametypes/sport page.
 
 Testing
-Pingdom
-BrowserStack
+Pingdom results in assets folder
 
 Issues and Bugs
 Issues include the rushed nature of the project as mentioned in the description. It meant more detailed features
