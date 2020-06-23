@@ -29,6 +29,9 @@ what the brand is about. The images in the gametypes page are more representativ
 requires the winner to be the only player remaining, Sweepstakes are all about putting money in a kity/pot and watching the
 action, while Prediction Competitions are more about studying the form, probabilities etc.
 
+The footer section clearly defines (using branded links) where users can contact the company, keep in
+touch via social channels or sign up to the newsletter for updates.
+
 The benefits of playing games offered by 'Friendly Bet' are clearly dipicted with green tick icons, quickly drawing them
 to the attention of users in the 'Why us?' section of index.html. 
 
