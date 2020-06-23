@@ -33,17 +33,19 @@ The benefits of playing games offered by 'Friendly Bet' are clearly dipicted wit
 to the attention of users in the 'Why us?' section of index.html. 
 
 User Stories
-External users of the site have the following goals:
-*	Find out about the website
-*	Find out about the games
-*	Determine whether the games will be fun / enjoyable
-*	Find out how the game works
-*	Understand the rules
+External users of the site have the following goals (including section of the website goals are achieved):
+1	Find out about the website (index.html and sports.html)
+2	Find out about the games (gametypes.html)
+3	Determine whether the games will be fun / enjoyable (index.html/why us?)
+4	Find out how the game works (gametypes.html)
+5	Understand the rules (gametypes.html - Modals included for specific game rules)
+
 The site owner has the following goals:
-*	Generate user interest in playing the games
-*	Allow users to easily understand the games and why they are fun
-*	Make them likely to tell their friends about the games and share them
-*	Users associate upcoming sporting events with the games themselves e.g. Premier League, Masters Golf, Grand National etc
+1	Generate user interest in playing the games (index.html/why us?)
+2	Allow users to easily understand the games and why they are fun (index.html/why us? and gametypes.html)
+3	Make them likely to tell their friends about the games and share them (index.html/why us?)
+4	Users associate upcoming sporting events with the games themselves e.g. Premier League, Masters Golf, 
+    Grand National etc (sports.html)
 
 
 Features
