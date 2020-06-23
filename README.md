@@ -1,10 +1,11 @@
 Description
-The project is based on a company specialising in 'friendly betting' games, that is; games where users play varirous
-games against each other for money. This type of game is also known as pooled betting' as it is more similar to a lottery
-format than traditional betting/gambling, which in reality is against highly qualified risk analysts and probably experts.
-This project is purely to give users an understanding of the games available, how they can play them, what the rules are
+The project is based on a company specialising in 'friendly betting' games, that is; games where users play various
+games against each other for money, but mainly for fun and enjoyment. This type of game is also known as pooled betting' 
+as it is more similar to a lottery format than traditional betting/gambling, which in reality is against highly qualified 
+risk analysts and probably experts.
+This project's aim to give users an understanding of the games available, how they can play them, what the rules are
 and what sports are covered. Users/fans can navigate by game type or sport. The project was slighly rushed due to only
-receiving the 'hard date' for the projects two weeks before. Only high level planning (without code) had been done at
+receiving the 'hard date' for the projects two weeks before due date. Only high level planning (without code) had been done at
 that point.
 The pages in the project are:
 index.html
@@ -23,14 +24,22 @@ color wheel. The branding colour combination is maintained in the logo and navba
 footer via the branded blue background, white h5 headings and branded orange h4 headings. Users are never far
 from branded navigation.
 
+The images on the home page show groups of friends gathering, cheering and coming together to enjoy sport, which is precisely
+what the brand is about. The images in the gametypes page are more representative of the games themselves - Last Man Standing
+requires the winner to be the only player remaining, Sweepstakes are all about putting money in a kity/pot and watching the
+action, while Prediction Competitions are more about studying the form, probabilities etc.
+
+The benefits of playing games offered by 'Friendly Bet' are clearly dipicted with green tick icons, quickly drawing them
+to the attention of users in the 'Why us?' section of index.html. 
+
 User Stories
-As an external user, I have the following goals:
+External users of the site have the following goals:
 *	Find out about the website
 *	Find out about the games
 *	Determine whether the games will be fun / enjoyable
 *	Find out how the game works
 *	Understand the rules
-As a site owner, I have the following goals:
+The site owner has the following goals:
 *	Generate user interest in playing the games
 *	Allow users to easily understand the games and why they are fun
 *	Make them likely to tell their friends about the games and share them
@@ -47,9 +56,13 @@ a modal - this is the 'less fun', more serious content is not taking up large se
 aims to focus on the fun aspects of the games. The button type used from the Bootstrap framework is the button
 'info' class which reprents what the users are accessing. The secondary button is used for closing.
 
-Within sports.html, external links to sport fixtures and schedules are displayed in the traditional link format
+Within sports.html, external links to sport fixtures and schedules are displayed with an arrow pointed right
 to give clarity to users that they are leaving the site. 'target=_blank' is used to ensure users can easily 
 navigate back to the Friendly Bet site.
+
+In both gametypes and sports pages, collapse components are used to allow users to toggle their preferred choice without
+having all options open at once. The show class is used to display the first option on each page for visual effect when 
+users land on the gametypes/sport page.
 
 Testing
 Pingdom
@@ -63,18 +76,23 @@ Scalability
 The project represents huge opportunities for scalability and future iterations. Live games could be added, 
 based on the documented formats, which utilise JavaScript to bring the games alive for the user, add backend 
 funtionality and manage databases to store customer data, connect to live data API's etc. Features may include
-user accounts, live tables, share functionality and ultimately UX driven game development.
+user accounts, live tables, share functionality and ultimately UX driven game development. Fixtures and blogs can
+also be incorporated, reducing the need for users to access external websites and increasing 'quality' traffic - 
+users already interested in the subject matter.
 
 
 Technologies
-The Bootstrap framework was the main system used. The grid was used to layout the website.
-Copy and pasted jquery, popper and bootstrap cdn js plug-ins to head from w3schools.com.
-Fontawesome was used for the social links and contact links in the footer.
-unsplashed.com was used for the images, as well as Google images.
-Logopony was used to generated the logo, a screenshot was subsequently taken of it and uploaded.
+The Bootstrap framework was frequently used throughout the side. The grid was used to layout the website. Many components
+on the site were taken from Bootstrap and subsequently customised.
+Jquery, popper and bootstrap cdn js plug-ins were copy and pasted to the site from w3schools.com.
+Fontawesome was used for the icons in social links, external links, greens ticks and contact links.
+Unsplashed.com was mostly used for the images on the site (total 7), as well as Google images (total 3).
+Logopony.com was used to generated the logo, a screenshot was subsequently taken of it and uploaded.
+Google Fonts was used and plugged-in for the 'Exo 2' font and expolration of other fonts.
 
 
 Acknowledgements
-Unsplash.com
-Mentor - Felip in giving advice around the planning
-Customer Care Support - provided advice and allowed a 5 day extension upon realsing I was not sent dates on time.
+CI Mentor - Felipe was excellent in giving advice around the planning and execution of the project, including several
+useful tips and resources. He was always available for calls, emails or IMs.
+Customer Care Support - provided useful advice and support throughout and kindly allowed a 5 day extension upon 
+realsing I was not sent milestone project dates on time.

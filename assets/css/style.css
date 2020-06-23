@@ -15,6 +15,10 @@
     background: white;
 }
 
+.bet {
+    color: #e78200;
+}
+
 .friendly .bet {
     font-weight: 600;
     font-size: 60%;
@@ -34,6 +38,10 @@
 
 .uppercase {
     text-transform: uppercase;
+}
+
+.social {
+    text-align: center;
 }
 
 .font-exo {
